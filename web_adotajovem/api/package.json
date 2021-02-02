@@ -1,0 +1,24 @@
+{
+  "name": "hackathon-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-router": "0.0.1",
+    "knex": "^0.20.15",
+    "pg": "^8.5.1",
+    "postgresql": "0.0.1",
+    "routes": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
